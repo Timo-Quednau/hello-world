@@ -16,6 +16,7 @@ public class Test {
 		double v6 = v4/v5;
 		System.out.println(v3);
 		System.out.println(v6);
+		System.out.println(v4);
 	}
 
 }

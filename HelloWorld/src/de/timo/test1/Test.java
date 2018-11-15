@@ -1,3 +1,4 @@
+package de.timo.test1;
 
 public class Test {
 

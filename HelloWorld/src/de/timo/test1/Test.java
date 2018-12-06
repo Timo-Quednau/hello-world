@@ -19,7 +19,7 @@ public class Test {
         }
         Integer ausgewählt = Integer.parseInt(javax.swing.JOptionPane.showInputDialog(test1));
         if (ausgewählt == 0) {exit();}
-        else if (ausgewählt == 1) { variablen(); }
+        else if (ausgewählt == 0) { variablen(); }
         else if (ausgewählt == 2) { quadrieren(); }
         else if (ausgewählt == 3) { gewinnspiel(); }
         else if (ausgewählt == 4) { files(); }

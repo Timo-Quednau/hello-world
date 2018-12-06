@@ -17,42 +17,21 @@ public class Test {
                 test1 = test1 + liste+ ":" + name + ", ";
                 liste++;}
         }
-        Integer ausgew‰hlt = Integer.parseInt(javax.swing.JOptionPane.showInputDialog(test1));
-        if (ausgew‰hlt == 0) {exit();}
-        else if (ausgew‰hlt == 0) { variablen(); }
-        else if (ausgew‰hlt == 2) { quadrieren(); }
-        else if (ausgew‰hlt == 3) { gewinnspiel(); }
-        else if (ausgew‰hlt == 4) { files(); }
-        else if (ausgew‰hlt == 5) { liter(); }
-        else if (ausgew‰hlt == 6) { ungerade(); }
-        else if (ausgew‰hlt == 7) { sterne(5); }
-        else if (ausgew‰hlt == 8) { random(); }
-        else if (ausgew‰hlt == 9) { pyramide(); }
+        Integer ausgew√§hlt = Integer.parseInt(javax.swing.JOptionPane.showInputDialog(test1));
+        if (ausgew√§hlt == 0) {exit();}
+        else if (ausgew√§hlt == 0) { variablen(); }
+        else if (ausgew√§hlt == 2) { quadrieren(); }
+        else if (ausgew√§hlt == 3) { gewinnspiel(); }
+        else if (ausgew√§hlt == 4) { files(); }
+        else if (ausgew√§hlt == 5) { liter(); }
+        else if (ausgew√§hlt == 6) { ungerade(); }
+        else if (ausgew√§hlt == 7) { sterne(5); }
+        else if (ausgew√§hlt == 8) { random(); }
+        else if (ausgew√§hlt == 9) { pyramide(); }
 
         else {exit();}
     }
 
-    static void variablen() {
-        int v1 = 3;
-        int v2 = 2;
-        int v3 = v1/v2;
-        double v4 = 3;
-        double v5 = 2;
-        double v6 = v4/v5;
-        System.out.println(v3);
-        System.out.println(v6);
-        System.out.println(1000000*1000000);
-        double v7 = 0.1+0.1+0.1+0.1+0.1+0.1+0.1+0.1+0.1+0.1;
-        String v8 = String.valueOf(v7);
-        System.out.println(v8);
-
-
-        double g = Math.sin( 0.1 );
-        double h = Math.cos( 0.8 );
-        System.out.println( "Wert von g: " + g );
-        System.out.println( "Wert von h: " + h );
-        System.out.println( "Maximum: " + Math.max( g, h ) );
-        auswahl();}
     static void quadrieren(){
         int v9 = 1 + 2;
         System.out.println(v9);
@@ -62,9 +41,9 @@ public class Test {
         auswahl();}
     static void gewinnspiel () {
         double d = 1.59;
-        System.out.println( (int) (d / 2) + " x 2 Ä" );
+        System.out.println( (int) (d / 2) + " x 2 ‚Ç¨" );
         d %= 2;
-        System.out.println( (int) (d / 1) + " x 1 Ä" );
+        System.out.println( (int) (d / 1) + " x 1 ‚Ç¨" );
         d %= 1;
         System.out.println( (int) (d / 0.5) + " x 50 Cent" );
         d %= 0.5;
